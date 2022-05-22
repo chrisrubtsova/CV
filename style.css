@@ -1,0 +1,97 @@
+
+body {
+    background: #FAEBD7;
+    color: #00008b;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    color: #00008b;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color:purple;
+}
+a:visited{
+    color: #310062;
+}
+
+.avatar {
+    width: 250px ;
+    border-radius: 3%;
+    box-shadow: 4px 4px 14px rgba(153, 153, 153, 0.25);
+    margin-left: 100px;
+    
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+    padding-top: 30px;
+}
+.info p{
+    font-style: normal;
+    font-weight: bold;
+}
+.info{
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+@media (max-width: 1200px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+
+}
+.info-text{
+    margin-left: 40px;
+    text-align: right;
+}
+.info-text h4{
+    margin-bottom: 10px;
+}
+
+.card{
+    margin-bottom: 30px;
+    margin-left: 100px; 
+    margin-right: 100px;
+    /* text-align: center; */
+}
+.card h2{
+    margin-bottom: 20px;
+}
+.table{
+    width: 60%;
+}
+.table td{
+     padding-bottom: 5px;
+
+}
+.skills{
+    width: 40%;
+}
+.contact{ 
+ margin-bottom: 10px;
+ list-style: none;
+ padding: 0;
+ }
+.contact li{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.center-img {
+    text-align: center;
+    }
+.contact h2{
+    text-align: center;}
+    .hobby{
+        padding: 17px;
+    }
